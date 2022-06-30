@@ -1,5 +1,13 @@
-const metas = 2022;
+const metai = 222;
 console.log(metai)
 
-const metai = 2021;
+console.clear
+
 console.log(metai)
+
+const a = 4;
+let x = 5 - a;
+console.log(a,x)
+console.log(a ** x)
+
+console.clear()
