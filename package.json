@@ -6,6 +6,8 @@
   "scripts": {
     "dev": "nodemon",
     "numbers": "nodemon ./js/numbers.js",
+    "boolean": "nodemon ./js/boolean.js",
+    "array": "nodemon ./js/array.js",
     "tasks": "nodemon ./js/tasks.js",
     "strings": "nodemon ./js/strings.js",
     "test": "echo \"Error: no test specified\" && exit 1"
