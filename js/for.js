@@ -9,3 +9,6 @@ suma += mark;}
 console.log("suma",suma);
 console.log("kiekis",marks.length)
 console.log("vidurkis",suma/marks.length)
+
+console.clear();
+
