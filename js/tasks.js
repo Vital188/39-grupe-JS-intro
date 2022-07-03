@@ -33,3 +33,45 @@ for (let a = 2; a < 4; a++)
 }
 console.log(average);
 console.log(points);
+
+console.clear()
+
+const skaiciai = 13;
+console.log(skaiciai)
+
+const sis ="diti";
+console.log(sis)
+
+const namai=[10, 4, 5 ,1, 5]
+console.log(namai)
+
+const svarbustekstas ="Tai labai svarbus \n\ testas \n\ ipatyngai sianden";
+console.log(svarbustekstas)
+
+console.log(a,b,c,d,e)
+
+const ketvirtasc="Teksto viduje padaryti neskaitomus tarpus \'\ \\ ar pavyko?"
+console.log(ketvirtasc)
+
+console.clear()
+
+const uzduotisone="Kintamuju palyginimas"
+console.log(uzduotisone)
+
+
+const l ='ahd';
+const k = 'fj';
+
+if (l.length<=k.length) 
+{console.log("pomidoras")}
+else
+{console.log("bandikyte dar karta")};
+
+const ananas="asdfgh"
+console.log(ananas.length)
+
+console.clear()
+
+const uzduotistwo="Ciklo FOR panaudojimas";
+console.log(uzduotistwo);
+
