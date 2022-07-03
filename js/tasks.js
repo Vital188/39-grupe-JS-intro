@@ -75,3 +75,11 @@ console.clear()
 const uzduotistwo="Ciklo FOR panaudojimas";
 console.log(uzduotistwo);
 
+const numeriai=[0, 15, 24, 6]
+
+let bendras = 0;
+
+for (let i = 35; i <= 3; i++) {
+    bendras += numeriai[i];
+}
+console.log=(bendras);
