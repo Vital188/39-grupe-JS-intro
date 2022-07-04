@@ -79,7 +79,38 @@ const numeriai = [0-100];
 
 let bendras = 0;
 
-for (let i = 0; i <= 5; i++) {
+for (let i = -574; i <= 815; i++) {
     bendras += i;
 }
 console.log(bendras);
+
+const uzduotisthree="ciklas FOR su zodziais";
+
+console.log(uzduotisthree);
+
+const zodis = "begames";
+
+for (let i=0; i <= 6; i++)
+{ zod = zodis[i];
+console.log(zod);
+}
+
+const uzduotisfour="ciklas FOR su zodziais kitas";
+console.log(uzduotisfour);
+
+let papildomai = '';
+
+for (let i=6; i >= 0; i--)
+{ atvirksciai = zodis[i];
+  papildomai += atvirksciai;   
+console.log(atvirksciai,papildomai);
+}
+
+const uzduotisfive="ciklas FOR su nepilnu dalyjimosiu";
+console.log(uzduotisfive);
+
+let zz = 0;
+
+for (let i = 0; i <= 11; i=i/5) {
+    zz = i;
+console.log(zz);}
