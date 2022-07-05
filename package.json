@@ -7,6 +7,8 @@
     "dev": "nodemon",
     "for": "nodemon ./js/for.js",
     "numbers": "nodemon ./js/numbers.js",
+    "switch": "nodemon ./js/switch.js",
+    "function": "nodemon ./js/function.js",
     "if": "nodemon ./js/if.js",
     "boolean": "nodemon ./js/boolean.js",
     "array": "nodemon ./js/array.js",
