@@ -5,6 +5,11 @@
   "main": "index.js",
   "scripts": {
     "dev": "nodemon",
+    "funkcijaone": "nodemon ./nd/funkcijaone.js",
+    "funkcijatwo": "nodemon ./nd/funkcijatwo.js",
+    "funkcijathree": "nodemon ./nd/funkcijathree.js",
+    "funkcijafour": "nodemon ./nd/funkcijafour.js", 
+    "funkcijafive": "nodemon ./nd/funkcijafive.js",
     "for": "nodemon ./js/for.js",
     "numbers": "nodemon ./js/numbers.js",
     "switch": "nodemon ./js/switch.js",
