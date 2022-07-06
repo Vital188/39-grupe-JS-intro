@@ -1,6 +1,6 @@
 console.clear();
 
-function numSize(number) {
+function numSizesis(number) {
     if (typeof number !== 'number'
         || !isFinite(number)) {
         return 'Pateikta netinkamo tipo reikšmė.';
@@ -20,21 +20,21 @@ function numSize(number) {
     return size;
 }
 
-console.log(numSize(true), '->', 'ERROR');
-console.log(numSize('asd'), '->', 'ERROR');
-console.log(numSize(NaN), '->', 'ERROR');
-console.log(numSize(Infinity), '->', 'ERROR');
-console.log(numSize(-Infinity), '->', 'ERROR');
-console.log(numSize(), '->', 'ERROR');
-console.log(numSize(null), '->', 'ERROR');
+console.log(numSizesis(true), '->', 'ERROR');
+console.log(numSizesis('asd'), '->', 'ERROR');
+console.log(numSizesis(NaN), '->', 'ERROR');
+console.log(numSizesis(Infinity), '->', 'ERROR');
+console.log(numSizesis(-Infinity), '->', 'ERROR');
+console.log(numSizesis(), '->', 'ERROR');
+console.log(numSizesis(null), '->', 'ERROR');
 
-console.log(numSize(5), '->', 1);
-console.log(numSize(781), '->', 3);
-console.log(numSize(37060123456), '->', 11);
-console.log(numSize(-5), '->', 1);
-console.log(numSize(-781), '->', 3);
-console.log(numSize(-37060123456), '->', 11);
-console.log(numSize(3.14), '->', 3);
-console.log(numSize(-3.14), '->', 3);
+console.log(numSizesis(5), '->', 1);
+console.log(numSizesis(781), '->', 3);
+console.log(numSizesis(37060123456), '->', 11);
+console.log(numSizesis(-5), '->', 1);
+console.log(numSizesis(-781), '->', 3);
+console.log(numSizesis(-37060123456), '->', 11);
+console.log(numSizesis(3.14), '->', 3);
+console.log(numSizesis(-3.14), '->', 3);
 
-console.log(numSize(5555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555), '->', 205);
+console.log(numSizesis(555555555555555555555), '->', 205);
