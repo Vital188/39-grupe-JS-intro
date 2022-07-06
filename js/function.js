@@ -1,3 +1,5 @@
+
+
 console.clear();
 
 const petras = [2, 3, 4, 5];
@@ -18,17 +20,17 @@ console.log('Maryte:', pazymiuVidurkis(maryte));
 console.log('Jonas:', pazymiuVidurkis(jonas));
 console.log('Ona:', pazymiuVidurkis(ona));
 
-console.clear()
-
 function suma(a, b) {
     return a + b;
 }
 
-console.log(`7+5 = ${suma(7, 5)}`);
+console.log(`7 + 5 = ${suma(7, 5)}`);
+console.log(`17 + 5 = ${suma(17, 5)}`);
+console.log(`557 + 5 = ${suma(557, 5)}`);
 
 
-function sumap (a,b,c) {
-    return a+b+c;
+function labas(name) {
+    return `Labas, as ${name}!`;
 }
 
-console.log(`6+5+4 = ${sumap(6, 5, 4)}`);
+console.log(labas('Maryte'));
