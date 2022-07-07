@@ -7,7 +7,7 @@ function numSizesis(number) {
     }
 
     const allowedSymbols = '0123456789';
-    const numberAsString = '' + number;
+    const numberAsString = ' ' + number;
     let size = 0;
 
     for (let i = 0; i < numberAsString.length; i++) {
@@ -20,21 +20,21 @@ function numSizesis(number) {
     return size;
 }
 
-console.log(numSizesis(true), '->', 'ERROR');
-console.log(numSizesis('asd'), '->', 'ERROR');
-console.log(numSizesis(NaN), '->', 'ERROR');
-console.log(numSizesis(Infinity), '->', 'ERROR');
-console.log(numSizesis(-Infinity), '->', 'ERROR');
-console.log(numSizesis(), '->', 'ERROR');
-console.log(numSizesis(null), '->', 'ERROR');
+//console.log(numSizes(true), '->', 'ERROR');
+//console.log(numSizes('asd'), '->', 'ERROR');
+//console.log(numSizes(NaN), '->', 'ERROR');
+//console.log(numSizes(Infinity), '->', 'ERROR');
+//console.log(numSizes(-Infinity), '->', 'ERROR');
+//console.log(numSizes(), '->', 'ERROR');
+//console.log(numSizes(null), '->', 'ERROR');//
 
-console.log(numSizesis(5), '->', 1);
-console.log(numSizesis(781), '->', 3);
-console.log(numSizesis(37060123456), '->', 11);
-console.log(numSizesis(-5), '->', 1);
-console.log(numSizesis(-781), '->', 3);
-console.log(numSizesis(-37060123456), '->', 11);
-console.log(numSizesis(3.14), '->', 3);
-console.log(numSizesis(-3.14), '->', 3);
+//console.log(numSizesi(5), '->', 1);
+//console.log(numSizesi(781), '->', 3);
+//console.log(numSizesi(37060123456), '->', 11);
+//console.log(numSizesi(-5), '->', 1);
+//console.log(numSizesi(-781), '->', 3);
+//console.log(numSizesi(-37060123456), '->', 11);
+//console.log(numSizesi(3.14), '->', 3);
+//console.log(numSizesi(-3.14), '->', 3);
 
-console.log(numSizesis(555555555555555555555), '->', 205);
+console.log(numSizesis(9999999999), '->', 205);
