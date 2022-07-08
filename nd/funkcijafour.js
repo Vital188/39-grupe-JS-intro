@@ -1,6 +1,6 @@
 console.clear();
 
-function bigNum(list) {
+function big(list) {
     if (!Array.isArray(list)) {
         return 'Pateikta netinkamo tipo reikšmė.';
     }
@@ -19,42 +19,39 @@ function bigNum(list) {
         }
     }
 
-    if (biggest === -Infinity) {
+    if (biggest === Infinity) {
         return 'Masyve nerasta nei vieno normalaus skaiciaus.';
     }
 
     return biggest;
 }
 
-console.log(bigNum('pomidoras'), '->', 'ERROR');
-console.log(bigNum([]), '->', 'ERROR');
-console.log(bigNum(5), '->', 'ERROR');
-console.log(bigNum(true), '->', 'ERROR');
-console.log(bigNum(false), '->', 'ERROR');
-console.log(bigNum(undefined), '->', 'ERROR');
-console.log(bigNum(null), '->', 'ERROR');
-console.log(bigNum({}), '->', 'ERROR');
-console.log(bigNum([NaN, NaN, NaN, NaN, NaN]), '->', 'ERROR');
-console.log(bigNum([Infinity, Infinity, Infinity]), '->', 'ERROR');
-
-console.log(bigNum([1]), '->', 1);
-console.log(bigNum([3]), '->', 3);
-console.log(bigNum([1, 2, 3]), '->', 3);
-console.log(bigNum([-5, 78, 14, 0, 18]), '->', 78);
-console.log(bigNum([69, 69, 69, 69, 66]), '->', 69);
-console.log(bigNum([-1, -2, -3, -4, -5, -6, -7, -8]), '->', -1);
-
-console.log(bigNum([1, 2, 3, 4, NaN]), '->', 4);
-console.log(bigNum([1, 2, NaN, 3, 4]), '->', 4);
-console.log(bigNum([NaN, 1, 2, 3, 4]), '->', 4);
-console.log(bigNum([NaN, NaN, 2, 3, 4]), '->', 4);
-console.log(bigNum([NaN, NaN, NaN, 3, 4]), '->', 4);
-console.log(bigNum([NaN, NaN, NaN, NaN, 4]), '->', 4);
-console.log(bigNum([1, 2, 3, 4, Infinity]), '->', 4);
-console.log(bigNum([1, 2, 3, 4, Infinity]), '->', 4);
-
-console.log(bigNum([0, -Infinity, Infinity, NaN, null, undefined, '', 'a', [], ['a']]), '->', 0);
-console.log(bigNum([0, '2']), '->', 0);
-console.log(bigNum([0, [3]]), '->', 0);
-console.log(bigNum([0, true]), '->', 0);
-console.log(bigNum([-1, false]), '->', -1);
+console.log(big('pomidoras'), '->', 'ERROR');
+console.log(big([]), '->', 'ERROR');
+console.log(big(5), '->', 'ERROR');
+console.log(big(true), '->', 'ERROR');
+console.log(big(false), '->', 'ERROR');
+console.log(big(undefined), '->', 'ERROR');
+console.log(big(null), '->', 'ERROR');
+console.log(big({}), '->', 'ERROR');
+console.log(big([NaN, NaN, NaN, NaN, NaN]), '->', 'ERROR');
+console.log(big([Infinity, Infinity, Infinity]), '->', 'ERROR');big
+console.log(big([1]), '->', 1);
+console.log(big([3]), '->', 3);
+console.log(big([1, 2, 3]), '->', 3);
+console.log(big([-5, 78, 14, 0, 18]), '->', 78);
+console.log(big([69, 69, 69, 69, 66]), '->', 69);
+console.log(big([-1, -2, -3, -4, -5, -6, -7, -8]), '->', -1);big
+console.log(big([1, 2, 3, 4, NaN]), '->', 4);
+console.log(big([1, 2, NaN, 3, 4]), '->', 4);
+console.log(big([NaN, 1, 2, 3, 4]), '->', 4);
+console.log(big([NaN, NaN, 2, 3, 4]), '->', 4);
+console.log(big([NaN, NaN, NaN, 3, 4]), '->', 4);
+console.log(big([NaN, NaN, NaN, NaN, 4]), '->', 4);
+console.log(big([1, 2, 3, 4, Infinity]), '->', 4);
+console.log(big([1, 2, 3, 4, Infinity]), '->', 4);big
+console.log(big([0, -Infinity, Infinity, NaN, null, undefined, '', 'a', [], ['a']]), '->', 0);
+console.log(big([0, '2']), '->', 0);
+console.log(big([0, [3]]), '->', 0);
+console.log(big([0, true]), '->', 0);
+console.log(big([-1, false]), '->', -1);
