@@ -20,6 +20,7 @@
     "loops2": "nodemon ./js/loops2.js",
     "function": "nodemon ./js/function.js",
     "if": "nodemon ./js/if.js",
+    "rest": "nodemon ./js/rest.js",
     "boolean": "nodemon ./js/boolean.js",
     "array": "nodemon ./js/array.js",
     "tasks": "nodemon ./js/tasks.js",
