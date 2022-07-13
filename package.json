@@ -21,6 +21,7 @@
     "function": "nodemon ./js/function.js",
     "if": "nodemon ./js/if.js",
     "rest": "nodemon ./js/rest.js",
+    "spread": "nodemon ./js/spread.js",
     "boolean": "nodemon ./js/boolean.js",
     "array": "nodemon ./js/array.js",
     "tasks": "nodemon ./js/tasks.js",
