@@ -15,6 +15,8 @@
     "numbers": "nodemon ./js/numbers.js",
     "switch": "nodemon ./js/switch.js",
     "ternary": "nodemon ./js/ternary.js",
+    "loops1": "nodemon ./js/loops1.js",
+    "loops2": "nodemon ./js/loops2.js",
     "function": "nodemon ./js/function.js",
     "if": "nodemon ./js/if.js",
     "boolean": "nodemon ./js/boolean.js",
