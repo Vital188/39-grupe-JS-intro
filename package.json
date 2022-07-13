@@ -11,6 +11,7 @@
     "funkcijafour": "nodemon ./nd/funkcijafour.js", 
     "funkcijafive": "nodemon ./nd/funkcijafive.js",
     "for": "nodemon ./js/for.js",
+    "class": "nodemon ./js/class.js",
     "numbers": "nodemon ./js/numbers.js",
     "switch": "nodemon ./js/switch.js",
     "function": "nodemon ./js/function.js",
