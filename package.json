@@ -16,6 +16,7 @@
     "switch": "nodemon ./js/switch.js",
     "ternary": "nodemon ./js/ternary.js",
     "loops1": "nodemon ./js/loops1.js",
+    "object": "nodemon ./js/object.js",
     "loops2": "nodemon ./js/loops2.js",
     "function": "nodemon ./js/function.js",
     "if": "nodemon ./js/if.js",
