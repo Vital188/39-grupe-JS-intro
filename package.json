@@ -14,6 +14,7 @@
     "class": "nodemon ./js/class.js",
     "numbers": "nodemon ./js/numbers.js",
     "switch": "nodemon ./js/switch.js",
+    "ternary": "nodemon ./js/ternary.js",
     "function": "nodemon ./js/function.js",
     "if": "nodemon ./js/if.js",
     "boolean": "nodemon ./js/boolean.js",
